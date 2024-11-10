@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'achat</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Pratique ES6 - DOM - POO sur une panier</h1>
+
+                    <h2>Produits</h2>
+
+        <!-- Liste des produits -->
+        <div class="produits">
+            <div class="produit" data-id="1">
+                <p class="nom-produit">T-shirt Rouge</p>
+                <p class="prix">15€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="produit" data-id="2">
+                <p class="nom-produit">Jeans Bleu</p>
+                <p class="prix">25€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="produit" data-id="3">
+                <p class="nom-produit">Basket Noir</p>
+                <p class="prix">45€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="produit" data-id="4">
+                <p class="nom-produit">Sweat à Capuche</p>
+                <p class="prix">35€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="produit" data-id="5">
+                <p class="nom-produit">Montre en Cuir</p>
+                <p class="prix">60€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="produit" data-id="6">
+                <p class="nom-produit">Sac à Dos</p>
+                <p class="prix">50€</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+
+        </div>
+
+        <!-- Panier -->
+        <div class="panier">
+            <h2>Mon Panier</h2>
+            <ul id="listePanier">
+                <!-- Les éléments du panier seront ajoutés ici dynamiquement -->
+            </ul>
+            <p id="total">Total : 0€</p>
+            <button id="clearCart">Vider le panier</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
